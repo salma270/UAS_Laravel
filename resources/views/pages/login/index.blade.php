@@ -48,6 +48,10 @@
                         </div>
 
                         <x-atoms.button.button-primary :customClass="'w-full text-center rounded-lg px-5 py-3'" :type="'submit'" :name="'Masuk'" />
+                        <div class="text-sm font-medium text-gray-500">
+                            Sudah punya akun? <a class="text-indigo-500 hover:underline"
+                                href="{{ route('regiter.index') }}">Register</a>
+                        </div>
                     </form>
 
                 </div>
