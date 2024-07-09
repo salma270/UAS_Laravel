@@ -1,0 +1,10 @@
+{
+    "plugins": ["prettier-plugin-blade", "prettier-plugin-tailwindcss"],
+    "overrides": [
+        {
+            "files": [
+                "*.blade.php"
+            ]
+        }
+    ]
+}
